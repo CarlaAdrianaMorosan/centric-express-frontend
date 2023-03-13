@@ -1,0 +1,61 @@
+// extra
+:host {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+//
+
+.hero-section {
+  //extra
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  //
+  background: var(--king-blue);
+  color: var(--white);
+}
+
+.hero-link {
+  font-size: 16px;
+}
+
+.hero-link,
+.subtitle {
+  font-family: "Oswald", sans-serif;
+}
+
+.link-button {
+  padding: 0.25em 1.25em;
+
+  background: var(--btn-color);
+  color: var(--white);
+  border-radius: 100px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  padding: 2em 0;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.hero-text {
+  margin: 64px 0;
+  font-size: 20px;
+}
+
+.primary-section .subtitle {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.primary-section-text {
+  font-size: clamp(1.5rem, 2.5vw, 2.1rem);
+}
