@@ -1,0 +1,8 @@
+<!-- <p>about works!</p> -->
+<p>{{ textContent }}</p>
+
+<div class="users-container">
+  <div *ngFor="let user of users" (click)="onClick(user)" class="user-card">
+    <span>{{ user.firstName }}</span>
+  </div>
+</div>

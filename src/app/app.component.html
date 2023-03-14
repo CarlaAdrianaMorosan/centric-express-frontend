@@ -4,11 +4,11 @@
       <nav class="primary-nav">
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="primary-nav-link">home</a>
+            <a class="primary-nav-link" [routerLink]="'/'">home</a>
           </li>
 
           <li class="nav-list-item">
-            <a class="primary-nav-link">about</a>
+            <a class="primary-nav-link" [routerLink]="'/about'">about</a>
           </li>
 
           <li class="nav-list-item">
@@ -21,7 +21,8 @@
 </header>
 
 <main class="main-content">
-  <app-homepage></app-homepage>
+  <!-- <app-homepage></app-homepage> -->
+  <router-outlet></router-outlet>
   <!-- <section class="hero-section">
     <div class="container row2">
       <h1 class="hero-title">
@@ -47,7 +48,3 @@
   </div>
 </footer>
 
-<script
-  src="https://kit.fontawesome.com/150d9cdc3a.js"
-  crossorigin="anonymous"
-></script>
