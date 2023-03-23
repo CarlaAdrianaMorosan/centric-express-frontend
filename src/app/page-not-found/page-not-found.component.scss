@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 40px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+

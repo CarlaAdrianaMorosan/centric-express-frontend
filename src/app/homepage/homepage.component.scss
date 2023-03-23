@@ -1,18 +1,14 @@
-// extra
 :host {
   display: flex;
   height: 100%;
   width: 100%;
 }
-//
 
 .hero-section {
-  //extra
   display: flex;
   width: 100%;
   height: 100%;
   align-items: center;
-  //
   background: var(--king-blue);
   color: var(--white);
 }
@@ -28,7 +24,6 @@
 
 .link-button {
   padding: 0.25em 1.25em;
-
   background: var(--btn-color);
   color: var(--white);
   border-radius: 100px;

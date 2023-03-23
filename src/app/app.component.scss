@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap");
 
-// EXTRA
-:host {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
 .main-content {
   flex: 1;
 }
@@ -17,27 +10,6 @@
   height: 100%;
   align-items: center;
 }
-//
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-// :root {
-//   font-size: 62.5%;
-//   --white: #fff;
-//   --sand-color: #ebc7e6;
-//   --deep-blue: #645cbb;
-//   --king-blue: #a084dc;
-//   --btn-color: #655dbb;
-//   --extra-light-black: rgb(0 0 0 / 0.4);
-// }
-
-// body {
-//   font-family: "Montserrat", sans-serif;
-// }
 
 .primary-nav-link,
 .secondary-nav-link,
@@ -51,15 +23,8 @@
   color: var(--sand-color);
 }
 
-/*.subtitle::first-letter,
-.hero-title::first-letter,
-.footer-nav-link::first-letter {
-  text-transform: uppercase;
-}*/
-
 .link-button {
   padding: 0.25em 1.25em;
-
   background: var(--btn-color);
   color: var(--white);
   border-radius: 100px;
@@ -71,37 +36,29 @@
   padding: 2em 0;
   margin: 0 auto;
 }
+
 /*Header*/
 .header {
   background: var(--deep-blue);
 }
 
 .header > .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   position: relative;
-
+  display: flex;
+  align-items: center;
   width: 100%;
   padding-left: 10vw;
   padding-right: 10vw;
 }
 
-.nav-container {
-  display: none;
-}
-
 .nav-container-visible {
-  display: block;
-
   position: absolute;
+  display: block;
   top: 100%;
   left: 0;
   right: 0;
   border-top: 1px solid var(--king-blue);
   padding: 10px 0;
-
   background: var(--deep-blue);
 }
 
@@ -111,7 +68,6 @@
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-
   color: var(--white);
 }
 
@@ -137,21 +93,6 @@
   margin-left: 20px;
 }
 
-/*Main*/
-// .hero-section {
-//   background: var(--king-blue);
-//   color: var(--white);
-// }
-
-// .hero-title {
-//   font-size: 60px;
-//   line-height: 1.1;
-// }
-
-/*.accent {
-  color: var(--sand-color);
-}
-*/
 .hero-text {
   margin: 64px 0;
   font-size: 20px;
@@ -166,7 +107,6 @@
   font-size: clamp(1.5rem, 2.5vw, 2.1rem);
 }
 
-/*Footer*/
 .footer {
   background: var(--deep-blue);
 }
@@ -199,7 +139,6 @@
 .footer-section-text,
 .footer-nav-link {
   font-size: 20px;
-
   color: var(--white);
 }
 
@@ -224,11 +163,10 @@
   .primary-nav {
     margin: 0 auto 0;
   }
+  
   .nav-container {
-    display: flex;
-
     position: static;
-
+    display: flex;
     width: 100%;
     padding: 0;
     border: none;

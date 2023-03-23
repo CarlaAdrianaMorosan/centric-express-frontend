@@ -8,7 +8,6 @@ import { User, Users } from '../types/user';
   styleUrls: ['./about.component.scss'],
 })
 export class AboutComponent {
-  @Input() textContent: string = 'Default About component text';
   @Output() userSelect: EventEmitter<User> = new EventEmitter();
 
   users: Users = [
@@ -17,14 +16,14 @@ export class AboutComponent {
       email: 'michael.lawson@reqres.in',
       firstName: 'Michael',
       lastName: 'Lawson',
-      avatar: 'https://reqres.in/img/faces/7-image.jpg',
+      avatar: 'https://reqres.in/img/faces/8-image.jpg',
     },
     {
       id: 8,
       email: 'lindsay.ferguson@reqres.in',
       firstName: 'Lindsay',
       lastName: 'Ferguson',
-      avatar: 'https://reqres.in/img/faces/8-image.jpg',
+      avatar: 'https://reqres.in/img/faces/7-image.jpg',
     },
     {
       id: 9,
