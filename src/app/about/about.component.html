@@ -1,6 +1,8 @@
 <div class="users-container">
-  <div *ngFor="let user of users" (click)="onClick(user)" class="user-card">
-    <img [src]="user.avatar" />
-    <div class="name">{{ user.firstName }}</div>
+  <div *ngFor="let user of users" class="user-card">
+    <app-user-details
+      [user]="user"
+      (userChange)="onUserChange($event)"
+    ></app-user-details>
   </div>
 </div>

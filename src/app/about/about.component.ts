@@ -34,7 +34,7 @@ export class AboutComponent {
     },
   ];
 
-  onClick(user: User): void {
-    this.userSelect.emit(user);
+  onUserChange(user: User): void {
+    console.log(user);
   }
 }
